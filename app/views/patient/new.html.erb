@@ -1,0 +1,5 @@
+<%= form_tag({:controller=>"patient",:action=> "create"}, method: :post) do |f| %>
+     <%= label_tag(:name, "Enter Patient_name") %>		
+     <%= text_field_tag(:name,:name) %>
+     <%= submit_tag("Search") %>
+<% end %>
